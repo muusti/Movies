@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Movies\Mvc.csproj", "{461B33BE-7255-4FEB-B739-0DC9994D4E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore", "AppCore\AppCore.csproj", "{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3C96C460-6BA6-4523-BE90-BB3CE37C6087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461B33BE-7255-4FEB-B739-0DC9994D4E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461B33BE-7255-4FEB-B739-0DC9994D4E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461B33BE-7255-4FEB-B739-0DC9994D4E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461B33BE-7255-4FEB-B739-0DC9994D4E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B754666E-7A94-4D67-96E4-28192E42CFEB}
+	EndGlobalSection
+EndGlobal
