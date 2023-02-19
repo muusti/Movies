@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Movies\Mvc.csproj", "{461B33BE-7255-4FEB-B739-0DC9994D4E86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc", "Movies\Mvc.csproj", "{461B33BE-7255-4FEB-B739-0DC9994D4E86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCore", "AppCore\AppCore.csproj", "{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore", "AppCore\AppCore.csproj", "{6A6D44AF-01CE-4C9D-B338-BB0199BA801A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3C96C460-6BA6-4523-BE90-BB3CE37C6087}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3C96C460-6BA6-4523-BE90-BB3CE37C6087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{3B065F04-D782-4A78-943B-4D9BA74EC603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C96C460-6BA6-4523-BE90-BB3CE37C6087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B065F04-D782-4A78-943B-4D9BA74EC603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B065F04-D782-4A78-943B-4D9BA74EC603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B065F04-D782-4A78-943B-4D9BA74EC603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B065F04-D782-4A78-943B-4D9BA74EC603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
