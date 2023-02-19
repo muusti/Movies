@@ -12,6 +12,6 @@ namespace Business.Models
         public string? Name { get; set; }
 
         [DisplayName("Country")]
-        public int CountryId { get; set; }
+        public int? CountryId { get; set; }
     }
 }

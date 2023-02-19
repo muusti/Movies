@@ -1,11 +1,11 @@
 ﻿using AppCore.Records.Bases;
 using DataAccess.Enums;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace DataAccess.Entities
+namespace Business.Models
 {
-    public class Director : RecordBase
+    public class DirectorModel : RecordBase
     {
         [Required]
         [StringLength(100)]
@@ -15,9 +15,8 @@ namespace DataAccess.Entities
         [StringLength(100)]
         public string? Surname { get; set; }
         public Gender? Gender { get; set; }
-        public DateTime? DateOfbirth { get; set; }
 
-        public int? MovieId { get; set; }
-        public List<Movie>? Movies { get; set; }
+        [DisplayName("Date Of Birth")]
+        public DateTime? DateOfbirth { get; set; }
     }
 }

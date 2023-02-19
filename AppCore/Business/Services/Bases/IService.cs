@@ -8,6 +8,6 @@ namespace AppCore.Business.Services.Bases
         IQueryable<TModel> Query();
         Result Add(TModel model);
         Result Update(TModel model);
-        Result Delete(TModel model);
+        Result Delete(int id);
     }
 }

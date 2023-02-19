@@ -23,6 +23,17 @@ namespace Business.Models
         [DisplayName("Role")]
         public int RoleId { get; set; }
 
+        [DisplayName("Country")]
+        [Required(ErrorMessage = "{0} is required!")]
+        public int? CountryId { get; set; }
+
+
+
+        [DisplayName("City")]
+        [Required(ErrorMessage = "{0} is required!")]
+        public int? CityId { get; set; }
+
+
 
         public RoleModel Role { get; set; }
     }
